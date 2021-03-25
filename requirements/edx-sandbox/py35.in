@@ -25,8 +25,3 @@ random2                             # Implementation of random module that works
 scipy==1.2.1                        # Math, science, and engineering library
 sympy==1.6.2                        # Symbolic math library
 
-# Install these packages from the edx-platform working tree
-# NOTE: if you change code in these packages, you MUST change the version
-# number in its setup.py or the code WILL NOT be installed during deploy.
--e common/lib/sandbox-packages
--e common/lib/symmath
